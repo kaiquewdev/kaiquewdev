@@ -125,6 +125,17 @@ h1 {
     -moz-box-shadow: 0 -1px 0 #000;
 }
 
+img {
+    margin: 15px;    
+    padding: 5px;
+    border: 1px dashed #1B282D;
+}
+
 a {
-  color: #00B7FF;
+  color: #FA8107;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;    
 }
