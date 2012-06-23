@@ -1,7 +1,4 @@
-
-/*
- * GET home page.
- */
+var pson = require('../actions/parse-json');
 
 exports.index = function ( req, res ) {
     res.render('index', { 
@@ -10,10 +7,13 @@ exports.index = function ( req, res ) {
     });
 };
 
-exports.profile = function ( req, res ) { 
+exports.profile = function ( req, res, profile ) { 
+    var profile = pson.work('./dbs/profile.json');
+
     res.render('profile', { 
         appTitle: 'Kaique da Silva',
         title: 'Perfil',
+        profile: profile,
     });
 };
 
