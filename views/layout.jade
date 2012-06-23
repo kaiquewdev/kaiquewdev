@@ -1,0 +1,31 @@
+!!! 5
+html
+  head
+    title= appTitle + ' (' + title + ') - web developer'
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div.bar
+    block appHeader
+        header.main-header
+            div.brand
+                h1= appTitle
+            div.nav
+                ul.menu
+                    li
+                        a(href='/') Incial
+                    li
+                        a(href='/profile') Perfil
+                    li
+                        a(href='/weekends') Projetos
+                    li
+                        a(href='/contact') Contato 
+    hr
+    section.main-content.limit-center 
+        h1= title
+        hr
+        p Lorem ipsum dollor sit amet
+        block appContent
+    block appFooter
+        footer.main-footer
+            p kaique.developer@gmail.com

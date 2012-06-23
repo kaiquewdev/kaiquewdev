@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+
+body {
+    background: url(../images/bg.png) #1B282E;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.limit-center {
+    margin: 0 auto;
+    width: 960px;
+}
+
+div.bar {
+    position: absolute;
+    border-bottom: 3px solid #6B3600;
+    width: 100%;
+    height: 10px;
+    background-color: #FA8107;
+
+    box-shadow: 0 1px 1px #000;
+    -khtml-box-shadow: 0 1px 1px #000;
+    -webkit-box-shadow: 0 1px 1px #000;
+    -moz-box-shadow: 0 1px 1px #000;
+    -o-box-shadow: 0 1px 1px #000;
+}
+
+hr {
+    background: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #FA8107;
+    border-left: none;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background: #1B282E;
+    clear: both;
+    overflow: hidden;
+    padding: 10px 25px 0;
+    z-index: -1;
+}
+
+.main-header .brand {
+    float: left;
+}
+
+.main-header .brand h1 {
+    text-shadow: 0 -1px 0 #000;    
+    font-size: 32px
+}
+
+h1 {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+.main-header .nav {
+    float: right;    
+}
+
+.main-header .nav .menu {
+    margin: 30px 0 0;
+    overflow: hidden;
+}
+
+.main-header .nav .menu li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+}
+
+.main-header .nav .menu li:hover {
+    border-bottom: 2px solid #0d171c;    
+}
+
+.main-header .nav .menu li a {
+    display: block;
+    font-size: 16px;
+    color: #FA8107;    
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.main-header .nav .menu li a:hover {
+    color: #fff;    
+}
+
+.main-content {
+    background-color: rgba(0, 0, 0, 0.5);    
+    border-top: 2px solid #d2d2d2;
+    padding: 0 25px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    min-height: 500px;
+}
+
+.main-content hr {
+    border-top: 1px solid #1b282d;    
+    border-bottom: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+.main-content p {
+    letter-spacing: 1px;    
+    line-height: 125%;
+}
+
+.main-footer {
+    background-color: #0f1b21;
+    padding: 15px 0 15px;
+    color: #f2f2f2;
+    text-align: center;    
+    text-shadow: 0 -1px 0 #000;
+    border-top: 1px solid #FA8107;
+
+    box-shadow: 0 -1px 0 #000;
+    -webkit-box-shadow: 0 -1px 0 #000;
+    -o-box-shadow: 0 -1px 0 #000;
+    -moz-box-shadow: 0 -1px 0 #000;
+}
+
+a {
+  color: #00B7FF;
+}
