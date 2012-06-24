@@ -1,6 +1,11 @@
 extends layout
 
 block appMainContent
-    img(src='http://24.media.tumblr.com/avatar_5dec0194a28b_128.png')
+    img(src=profile.avatar)
     hr
-    p= profile.name
+    p <b>Nome:</b> #{profile.name}
+    p <b>Age:</b> #{profile.age} anos
+    hr
+    p <b>Bio:</b> #{profile.bio}
+    hr
+    #{profile.body}
