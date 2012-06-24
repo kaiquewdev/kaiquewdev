@@ -52,6 +52,12 @@ hr {
     float: left;
 }
 
+.main-header .brand a:active {}
+.main-header .brand a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 .main-header .brand h1 {
     text-shadow: 0 -1px 0 #000;    
     font-size: 32px
@@ -180,6 +186,19 @@ form span label .textarea {
     border: 1px solid #27363d;
     background: #1B282D;
     color: #f2f2f2;
+}
+
+.weekend-projects {
+    width: 100%;    
+    padding: 0;
+    margin: 0 auto;
+}
+
+.weekend-projects li {
+    list-style: none;    
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #27363d;
 }
 
 img {

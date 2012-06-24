@@ -2,6 +2,7 @@
 html
   head
     meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     title= appTitle + ' (' + title + ') - web developer'
     link(rel='stylesheet', href='/stylesheets/normalize.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
@@ -11,7 +12,7 @@ html
     div.bar
     header.main-header
         div.brand
-            h1= '[ ' + appTitle + ' ]'
+            a(href='/'): h1= '[ ' + appTitle + ' ]'
         div.nav
             ul.menu
                 li: a(href='/') Incial
