@@ -31,7 +31,7 @@ var kw = (function ( window, $ ) {
         githubProjects: function ( settings ) {
             // request to https://api.github.com/users/kaiquewdev/repos?type=owner
             if ( settings ) {
-                var requestURL = 'https://api.github.com/users/kaiquewdev/repos?type=owner&client_id=ad83403be07698072d0a',
+                var requestURL = 'https://api.github.com/users/kaiquewdev/repos?type=owner&sort=pushed',
                     element = $( settings['element'] ),
                     ownRepos = [];
 
@@ -50,13 +50,12 @@ var kw = (function ( window, $ ) {
                     });
                     
                     if ( ownRepos ) {
-                        for ( var repo in ownRepos ) {
-                            var currentRepo = ownRepos[repo];
-
-                            if ( !currentRepo['fork'] ) {
-                                element.append('<li><a href=\"' + currentRepo['html_url'] + '\" target="blank">' + currentRepo['name'] + '</a></li>');
-                            }
-                        }    
+                        ownRepos = ownRepos.filter( function ( repo, id ) {
+                            if ( id < 20 && !( repo['fork'] ) ) {
+                                element.append('<li><a href=\"' + repo['html_url'] + '\" target="blank">' + repo['name'] + '</a></li>');
+                                return repo;    
+                            } 
+                        });
 
                         element.append('<li><a href=\"' + settings['profile'] + '\" target="blank">Perfil no Github</a></li>');
 
