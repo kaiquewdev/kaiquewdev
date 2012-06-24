@@ -1,4 +1,17 @@
 extends layout
 
 block appMainContent
-    p Contact page
+    div.limit-center.formset
+        fieldset
+            form(action='/contact/send', method='post')
+                span
+                    label
+                        input(type='text', class='textfield', value='Nome')
+                span
+                    label
+                        input(type='text', class='textfield', value='Email')
+                span
+                    label
+                        textarea(class='textarea') Conteudo...
+                span
+                    input(type='submit', class='action', value='Enviar')

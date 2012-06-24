@@ -4,22 +4,23 @@
 "age":18,
 "bio":"Atuo na área de desenvolvimento para web desde os meus 11 anos de idade, curioso em busca de um novo mundo a        programção foi o meu refugio para explorar a minha mente em busca, de concretizar os meu pensamentos e ideias. Quando evolui e   pude ver que conseguia passar isso para os meus projetos e não quis mais parar. Paixão, por criar, mudar e inovar sempre.",
 "body":"
-p Linguagens: Javascript, Python, Ruby, C, Objective-C, Java, PHP, AS3, Haskell, HTML5, CSS3, XML, SQL;
-p Frameworks e Ambientes de desenvolvimento: Node.js, Cocos2d, Django, Web2py, Pylons, Rails, Code Igniter, Zend Framework;
-p Bancos de dados: MySQL, SQLite, PostgreSQL, MongoDB;
-p CMS's: Wordpress, Drupal, Joomla;
-p Mobile Frameworks: PhoneGap, Titanium Mobile;
-p Versionamento: Git, Mercurial, Subversion, Bazaar;
-hr
-p Contato:
-ul
-    li: email: <a href='mailto:kaique.developer@gmail.com' target='_blank'>kaique.developer@gmail.com</a>
-    li: perfil facebook: <a href='http://www.facebook.com/kaique.silva' target='_blank'> kaique.silva </a>
-    li: pagina facebook: <a href='http://www.facebook.com/fthship' target='_blank'> Feel The Hacking </a>
-    li: grupo facebook:/> <a href='http://www.facebook.com/groups/fthship/' target='_blank'> Feel The Hacking </a>
-    li: github:</> <a href='http://www.github.com/kaiquewdev' target='_blank'> kaiquewdev </a>
-    li: twitter:</> <a href='http://www.twitter.com/#!/japaloc' target='_blank'> @japaloc </a>
-    li: blog:</> <a href='http://www.cladecoders.tumblr.com' target='_blank'> #!/Clade/coders/ </a>
-br"
+<p><b>Linguagens:</b> Javascript, Python, Ruby, C, Objective-C, Java, PHP, AS3, Haskell, HTML5, CSS3, XML, SQL;</p>
+<p><b>Frameworks e Ambientes de desenvolvimento:</b> Node.js, Cocos2d, Django, Web2py, Pylons, Rails, Code Igniter, Zend Framework;</p>
+<p><b>Bancos de dados:</b> MySQL, SQLite, PostgreSQL, MongoDB;</p>
+<p><b>CMS's:</b> Wordpress, Drupal, Joomla;</p>
+<p><b>Mobile Frameworks:</b> PhoneGap, Titanium Mobile;</p>
+<p><b>Versionamento:</b> Git, Mercurial, Subversion, Bazaar;</p>
+<hr />
+<p><b>Contato:</b></p>
+<ul>
+    <li>email: <a href='mailto:kaique.developer@gmail.com' target='_blank'>kaique.developer@gmail.com</a></li>
+    <li>perfil facebook: <a href='http://www.facebook.com/kaique.silva' target='_blank'> kaique.silva </a></li>
+    <li>pagina facebook: <a href='http://www.facebook.com/fthship' target='_blank'> Feel The Hacking </a></li>
+    <li>grupo facebook:<a href='http://www.facebook.com/groups/fthship/' target='_blank'> Feel The Hacking </a></li>
+    <li>github:<a href='http://www.github.com/kaiquewdev' target='_blank'> kaiquewdev </a></li>
+    <li>twitter:<a href='http://www.twitter.com/#!/japaloc' target='_blank'> @japaloc </a></li>
+    <li>blog:<a href='http://www.cladecoders.tumblr.com' target='_blank'> #!/Clade/coders/ </a></li>
+</ul>
+<br/>"
 }
 

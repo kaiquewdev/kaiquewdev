@@ -10,8 +10,7 @@ exports.index = function ( req, res ) {
 
 exports.profile = function ( req, res, profile ) { 
     var profile = pson.work('./dbs/profile.json');
-        profile.body = jade.compile( profile.body );
-
+    
     res.render('profile', { 
         appTitle: 'Kaique da Silva',
         title: 'Perfil',

@@ -12,6 +12,10 @@ body {
     width: 960px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 div.bar {
     position: absolute;
     border-bottom: 3px solid #6B3600;
@@ -95,7 +99,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
 
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .main-content hr {
@@ -112,6 +116,9 @@ h1 {
 }
 
 .main-footer {
+    clear: both;
+    bottom: 0;
+    width: 100%;
     background-color: #0f1b21;
     padding: 15px 0 15px;
     color: #f2f2f2;
@@ -123,6 +130,56 @@ h1 {
     -webkit-box-shadow: 0 -1px 0 #000;
     -o-box-shadow: 0 -1px 0 #000;
     -moz-box-shadow: 0 -1px 0 #000;
+}
+
+.formset {
+    width: 400px;
+    margin-top: 15px;
+    display: block;
+    overflow: visible;
+}
+
+fieldset {
+    background: none;
+    border: none;    
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+}
+
+form span {
+    display: block;
+    padding: 0;
+    margin: 10px 0;
+}
+
+form span label .textfield {
+    width: 100%;    
+    margin: 0;
+    padding: 5px;
+}
+
+form span label .textarea {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    height: 200px;    
+}
+
+.textarea, .textfield {
+    border: 1px solid #27363d;
+    background: #1B282D;
+    color: #ddd;
+    resize: none;
+}
+
+.action {
+    width: 200px;
+    margin: 5px 100px;    
+    padding: 5px 10px;
+    border: 1px solid #27363d;
+    background: #1B282D;
+    color: #f2f2f2;
 }
 
 img {
