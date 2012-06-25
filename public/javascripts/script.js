@@ -15,6 +15,10 @@ requirejs([
                 element: '.weekend-projects',
                 profile: 'http://github.com/kaiquewdev/'
             });
+            // Animate banner
+            self.bannerAnimation({
+                element: '.wall .pic'    
+            });
         });
     }); 
 });

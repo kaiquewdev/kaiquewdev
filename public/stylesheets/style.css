@@ -201,6 +201,47 @@ form span label .textarea {
     border-bottom: 1px solid #27363d;
 }
 
+.wall {
+    position: relative;
+    margin: 10px 0;
+    padding: 0 8px;
+    overflow: hidden;
+}
+
+.wall .pic {
+    position: relative;
+    float: left;
+    width: 225px;
+    height: 200px;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: none;
+    bottom: -250px;
+}
+
+.wall .pic div {
+   position: absolute;     
+   width: 100%;
+   top: 50%;
+   margin-top: -35px;
+   padding: 0;
+   text-align: center;
+   display: block;
+}
+
+.wall .pic div h1 {
+    color: #FA8107;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.wall .pic div h1:hover {
+    color: #fff;    
+    text-decoration: none;
+}
+
 img {
     margin: 15px;    
     padding: 5px;

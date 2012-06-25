@@ -69,6 +69,32 @@ var kw = (function ( window, $ ) {
             }
         },
 
+        bannerAnimation: function ( settings ) {
+            var output = []; 
+
+            if ( settings ) {
+                var elements = $( settings['element'] ),
+                    lengthEl = elements.length,
+                    timer = 180;
+
+                do {
+                    elements.eq( lengthEl ).delay( timer ).show().queue(function () {
+                        $(this).animate({
+                            bottom: 0    
+                        });    
+
+                        $(this).dequeue();
+                    });
+                    
+                    timer += 60;
+                } while( lengthEl-- );
+
+                output = elements;
+            }
+
+            return output;
+        },
+
         init: function ( callback ) {
             // Start
             var self = this;
